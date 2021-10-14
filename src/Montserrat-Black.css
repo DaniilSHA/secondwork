@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Montserrat-Black; /* Имя шрифта */
+    src: url(fonts/Montserrat-Black.eot); /* Путь к файлу со шрифтом */
+    src: url(fonts/Montserrat-Black.otf); /* Путь к файлу со шрифтом */
+    src: url(fonts/Montserrat-Black.svg); /* Путь к файлу со шрифтом */
+    src: url(fonts/Montserrat-Black.ttf); /* Путь к файлу со шрифтом */
+    src: url(fonts/Montserrat-Black.woff); /* Путь к файлу со шрифтом */
+   }
+
