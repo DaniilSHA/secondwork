@@ -1,0 +1,186 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}*/
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    width: 320px;
+    height: 369px;
+    background-color: #FFFFFF;
+    border: solid rgba(12,13,25,0.25) 1px;
+    border-radius: 4px;
+}
+
+.calendar__header {
+    height: 64px;
+    padding-left: 20.2px;
+    padding-right: 20.67px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.calendar__header-left-button {
+    background-image: url(imgs/arrow_back.png);
+    background-size: cover;
+    width: 23.93px;
+    height: 24px;
+    margin-top: 20px;
+}
+
+.calendar__header-right-button {
+    background-image: url(imgs/arrow_next.png);
+    background-size: cover;
+    width: 23.93px;
+    height: 24px;
+    margin-top: 20px;
+}
+.calendar__header-date {
+    display: flex;
+    align-items: center;
+}
+    
+.calendar__header-date-month_mod
+ {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    color: #1F2041;
+}
+.calendar__header-date-year_mod
+ {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    color: #1F2041;
+}
+
+.calendar__contant {
+    margin-top: 13px;
+    width: 279.39px;
+    height: 240px;
+    padding-left: 24.94px;
+    padding-right: 15.67px;
+}
+
+.calendar__weekdays {
+    height: 40px;
+    width: 279.13px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.calendar__weekdays-day {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #BC9CFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calendar__date {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar__date-today {
+    background-image: url(imgs/today.png);
+    background-position: center;
+    background-size: cover;
+    font-weight: bold !important;
+    color: #FFFFFF !important;
+}
+
+.calendar__date div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    width: 39.88px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1f2041;
+}
+
+.calendar__date {
+    opacity: 0.5;
+}
+
+.calendar__date-prev,
+.calendar__date-next {
+    color: rgba(12,13,25,0.25) !important;     
+}
+
+.calendar__date-Range {
+    font-weight: bold !important;
+    color: #FFFFFF !important;
+    background-image: url(imgs/choise.png);
+    background-size: cover;
+}
+
+.calendar__bottom {
+    height: 52px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.calendar__clear-button {
+    width: 72px;
+    height: 15px;
+    padding-left: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #BC9CFF;
+}
+
+.calendar__confirm-button {
+    width: 84px;
+    height: 15px;
+    padding-right: 16px;
+    margin-left: 124px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #BC9CFF;
+}
+
+#rightRange {
+    font-weight: bold !important;
+    color: #FFFFFF !important;
+    background-image: url(imgs/rightRange.png);
+    background-size: cover;
+    background-position: right;
+}
+
+#leftRange {
+    font-weight: bold !important;
+    color: #FFFFFF !important;
+    background-image: url(imgs/leftRange.png);
+    background-size: cover; 
+    background-position: left;
+ 
+}
+
+.printRange {
+  background-color: rgba(188,156,255,0.25);
+}
+

@@ -1,0 +1,20 @@
+.container
+    .calendar
+        .calendar__header
+            .calendar__header-left-button
+            .calendar__header-date
+                h1.calendar__header-date-month_mod
+                p.calendar__header-date-year_mod
+            .calendar__header-right-button
+        .calendar__contant
+            .calendar__weekdays
+                - weekdays = ['Пн','Вт','Ср','Чт','Пт','Сб','Вс'];
+                each day in weekdays
+                    .calendar__weekdays-day= day
+            .calendar__date
+                    .calendar__date-prev
+                    .calendar__date-current
+                    .calendar__date-next
+        .calendar__bottom
+            .calendar__clear-button ОЧИСТИТЬ
+            .calendar__confirm-button ПРИМЕНИТЬ
